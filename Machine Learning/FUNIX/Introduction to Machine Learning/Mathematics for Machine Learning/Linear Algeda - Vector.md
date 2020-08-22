@@ -18,8 +18,11 @@
 
 - **Multiplication by a Scalar:**
     - **Method**: Multiple the components of the vector with the Scalar
-        - `2r[a,b] = r[2a,2b]`
-        - `r[a, b] - r[a,b] = r[0,0]`
+        
+        ![Scalar Multiple](../Image/Scalar_Mul.jpg)
+
+        ![Substract](../Image/Substract.jpg)
+
         - `r` and `ar` ( with a is `a` Scalar ) will have the same direction if `a` is position.
 
 - **Size of a Vector (Length):**
@@ -38,6 +41,21 @@
 
             ![Commutitive](../Image/Dotted_3.jpg)
 
-        - Distributive over addition:
+        - **Distributive over addition:**
 
             ![Distribute](../Image/Distribute.jpg)
+
+        - **Associative over Scalar multiplication:**
+
+            ![Associative Scalar](../Image/Associative_Scalar.jpg)
+
+- **Relationship between the dot product and the length (modulus) of a vector:**
+    - If we want to get the size of a Vector, we dotting the Vector with itself and taking the square root.
+
+    ![Dotted vs Size](../Image/Dotted_vs_Size.jpg)
+
+- **Cosine and Dot product:**
+    - **Use case:** The Dot product with the Cosine shows us whether the two Vector go in the same direction.
+        - The result will be between 0 and 1.
+
+            ![Dotted vs Cos](../Image/Dot_vs_Cos.jpg)
